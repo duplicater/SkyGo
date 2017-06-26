@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SkyGo_Example' do
+  pod 'SkyGo', :path => '../'
+
+  target 'SkyGo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
